@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Puerto Valle — ToadVille Bay</title>
+  <meta content="Puerto Valle  — ToadVille Bay" property="og:title" />
+  <meta content="Puerto Valle — Mountains and urban cultural center." property="og:description" />
+  <meta content="https://toadvillebay.com/Provinces/puerto-valle.html" property="og:url" />
+  <meta content="https://toadvillebay.com/Images and Videos/ToadVille Bay - Puerto Valle.png" property="og:image" />
+  <meta content="#0066CC" data-react-helmet="true" name="theme-color" />
+  <link rel="icon" type="image/png" href="../Images and Videos/ToadVilleCOA.png" />
+  <link rel="apple-touch-icon" href="../Images and Videos/ToadVilleCOA.png" />
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    /* Local styles borrowed from Prime Minister page */
+    .ref-section { max-width: 960px; margin: 0 auto 32px; padding: 0 16px; }
+    .ref-table { width: 100%; border-collapse: collapse; margin: 12px 0 24px; background:#fff; }
+    .ref-table th, .ref-table td { border: 1px solid #dcdfe6; padding: 10px; text-align: left; color: #000 !important; }
+    .ref-table th { background: #e9f2ff; color: #000 !important; font-weight: 700; }
+    .ref-stats { display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+    .ref-card { background:#f8fbff; color:#02243a; border:1px solid #cfe0fb; padding:12px 14px; border-radius:8px; box-shadow:0 3px 10px rgba(2,36,58,0.06); min-width:200px; }
+    .ref-card strong{display:block}
+    .h1-accent { color: #002244; }
+    .pm-photo { max-width:220px; width:100%; height:auto; border-radius:8px; display:block; margin:12px 0; }
+    @media (max-width:640px){ .ref-table th, .ref-table td{font-size:14px;} .ref-stats{flex-direction:column;} }
+  </style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="site-header__top">
+      <a class="site-brand" href="/index.html">
+        <img src="../Images and Videos/flag.png" alt="ToadVille Bay" class="brand-mark" />
+        <span class="brand-text">ToadVille Bay</span>
+      </a>
+      <div class="site-utils">
+        <form class="site-search" role="search" aria-label="Site search" onsubmit="handleSearch(event)">
+          <label for="q" class="sr-only">Search ToadVille Bay</label>
+          <input id="q" name="q" type="search" placeholder="Search ToadVille Bay" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Puerto Valle">
+    <div class="hero__content">
+      <h1 class="h1-accent">Puerto Valle</h1>
+      <p>Mountains and urban cultural centre.</p>
+    </div>
+  </section>
+
+  <main class="page-content">
+    <section class="content-block ref-section" aria-labelledby="prov-name">
+      <h2 id="prov-name">Puerto Valle</h2>
+      <img src="../Images and Videos/ToadVille Bay - Puerto Valle.png" alt="Flag of Puerto Valle" class="pm-photo" />
+      <p><strong>Overview:</strong> Puerto Valle is mainly covered in mountains, but has a lot of urban areas with cultural history, and a bunch of ski resorts</p>
+      <p><strong>Capital:</strong> Puerto Vista</p>
+      <p><strong>Location:</strong> Northwest</p>
+      <p><strong>Time zone:</strong> Pacific Time Zone</p>
+      <p><strong>Main institutions:</strong> Mercier Merchant Alleyway, Froggance Ski Resorts</p>
+    </section>
+
+    <section class="content-block ref-section" aria-labelledby="demographics">
+      <h2 id="demographics">Demographics</h2>
+      <p><strong>Population:</strong> 4,249,249</p>
+      <p>Puerto Valle has the highest population when it comes to mountain regions.</p>
+      <table class="ref-table" aria-label="Puerto Valle statistics">
+        <thead>
+          <tr><th>Statistic</th><th>Value</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Population</td><td>4,249,249</td></tr>
+          <tr><td>Area</td><td>41,482km²</td></tr>
+          <tr><td>Capital</td><td>Puerto Vista C.R.</td></tr>
+          <tr><td>Main economy</td><td>Government services, commerce, culture</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="content-block ref-section" aria-labelledby="history">
+      <h2 id="history">History</h2>
+      <p>Puerto Valle was part of ToadVIlle Sur, habited around the 1920s, it became a getaway soon from urban areas</p>
+      <p>Key moments:</p>
+      <ul>
+        <li>Getaway zone from urban area for mountain views.</li>
+        <li>Became the most popular destination for vacations.</li>
+        <li>Has the most immigrants</li>
+      </ul>
+    </section>
+
+    <section class="content-block ref-section" aria-labelledby="gov">
+      <h2 id="gov">Ski Resorts</h2>
+      <p>The Ski resorts make the most bank for the province.</p>
+    </section>
+
+    <section class="content-block ref-section" aria-labelledby="quick-facts">
+      <h2 id="quick-facts">Quick Facts</h2>
+      <div class="ref-stats">
+        <div class="ref-card"><strong>Province:</strong> Puerto Valle</div>
+        <div class="ref-card"><strong>Capital:</strong> Puerto Vista</div>
+        <div class="ref-card"><strong>Population:</strong> 4,249,249</div>
+        <div class="ref-card"><strong>Main site:</strong> Mercier Merchants Alleyway</div>
+        <div class="ref-card"><strong>Location:</strong> Northwest</div>
+        <div class="ref-card"><strong>Time zone:</strong> Pacific Time</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img class="footer-brand-img" src="../Images and Videos/flag.png" alt="ToadVille Bay Flag" />
+      </div>
+      <div class="footer-links-columns">
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">Our community</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Programs & services</a></li>
+            <li><a href="#">Permits & licenses</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Site map</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../Legal/termsofservice.html">Terms of Service</a></li>
+            <li><a href="../Legal/privacy.html">Privacy</a></li>
+            <li><a href="../Legal/communityguidelines.html">Community Guidelines</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-brand" style="grid-column: 1 / -1; text-align:center;">
+          <span class="site-footer-text">© ToadVille Bay 2019-2026</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../scripts/site-search.js"></script>
+</body>
+</html>
