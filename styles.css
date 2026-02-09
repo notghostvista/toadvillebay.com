@@ -37,14 +37,13 @@
 /* Smooth vibes */
 html { scroll-behavior: smooth; }
 body {
-  font-family: Arial, sans-serif;
-  min-height: 100vh;
-  min-height: 100dvh;
-  background: var(--tvb-bg);
-  color: var(--tvb-text);
-  line-height: 1.55;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    min-height: 100dvh; /* mobile-friendly */
+    background: var(--tvb-bg);
+    color: var(--tvb-text);
+    position: relative;
+    line-height: 1.5; /* moderate readability spacing */
 }
 
 /* Typography spacing (clean + consistent) */
