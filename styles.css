@@ -633,7 +633,7 @@ body.landing {
 /* Title spacing */
 .site-title {
   margin: 0;
-  font-weight: 900;
+  font-weight: 500;
   letter-spacing: -0.02em;
 }
 
