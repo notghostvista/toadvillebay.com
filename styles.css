@@ -322,7 +322,7 @@ a:hover {
 
 /* Secondary */
 .nav-btn.secondary {
-  background: rgba(59,130,246,0.10);
+  background: rgba(3, 45, 112);
   border-color: rgba(59,130,246,0.25);
   color: #bcd2ff;
 }
