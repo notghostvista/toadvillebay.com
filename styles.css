@@ -667,3 +667,8 @@ body.landing::before {
     z-index: 0;
 }
 
+.landing-copyright {
+  margin-top: 18px; /* small push down */
+}
+
+
