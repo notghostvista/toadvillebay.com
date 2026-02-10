@@ -109,7 +109,7 @@ a:hover {
   box-shadow: 0 6px 14px rgba(0,0,0,0.25);
 }
 .brand-text {
-  font-weight: 800;
+  font-weight: 500;
   font-size: 1.1rem;
   color: var(--tvb-text);
   position: relative;
