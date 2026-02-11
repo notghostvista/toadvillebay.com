@@ -37,7 +37,7 @@
 /* Smooth vibes */
 html { scroll-behavior: smooth; }
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', Helvetica;
     min-height: 100vh;
     min-height: 100dvh; /* mobile-friendly */
     background: var(--tvb-bg);
