@@ -370,7 +370,7 @@ body.landing::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: url('Images and Videos/map.png') center / cover no-repeat;
+  background: url('Images and Videos/ToadVille Bay - Tasiq Nunaat.png') center / cover no-repeat;
   filter: blur(9px);
   transform: scale(1.06);
   z-index: 0;
