@@ -404,17 +404,6 @@ body.landing::after {
   z-index: 1;
 }
 
-.language-selection-card {
-  background: rgba(18,26,42,0.88);
-  border: 1px solid var(--tvb-border);
-  border-radius: 18px;
-  box-shadow: var(--tvb-shadow);
-  padding: 30px;
-  width: 420px;
-  text-align: center;
-  color: var(--tvb-text);
-  backdrop-filter: blur(10px);
-}
 
 .site-description {
   color: var(--tvb-accent);
