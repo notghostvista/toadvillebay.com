@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome - Republic of ToadVille Bay (Canada)</title>
+
+  <meta property="og:title" content="Welcome - Republic of ToadVille Bay (Canada)" />
+  <meta property="og:description" content="Official government website of ToadVille Bay – Immigration, citizenship, businesses and community services." />
+  <meta property="og:url" content="https://toadvillebay.com/" />
+  <meta property="og:image" content="https://toadvillebay.com/Images and Videos/ToadVilleCOA.png" />
+  <meta name="theme-color" content="#0066CC" />
+
+  <link rel="icon" type="image/png" href="./Images and Videos/ToadVilleCOA.png" />
+  <link rel="apple-touch-icon" href="./Images and Videos/ToadVilleCOA.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="landing">
+  <div class="container">
+    <main class="landing-content" role="main">
+      <div class="header">
+        <img class="site-flag" src="./Images and Videos/ToadVille Bay - Tasiq Nunaat.png" alt="ToadVille Bay Flag" />
+        <h1 class="site-title">Welcome - Republic of ToadVille Bay (Canada)</h1>
+      </div>
+
+      <nav class="navigation-buttons" role="navigation" aria-label="Landing navigation">
+        <!-- Main CTA -->
+        <a class="nav-btn primary" href="./home.html">Enter site</a>
+
+        <!-- Secondary actions -->
+        <div class="secondary-nav" aria-label="Secondary navigation">
+          <a class="nav-btn secondary" href="https://qc-ca.toadvillebay.com">Français</a>
+          <a class="nav-btn secondary" href="./about.html">About</a>
+        </div>
+      </nav>
+
+      <footer class="landing-footer">
+        <div class="landing-copyright">
+          © ToadVille Bay du Canada 2019–<span id="current-year"></span>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>
+
