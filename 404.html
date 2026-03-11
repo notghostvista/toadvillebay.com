@@ -1,35 +1,70 @@
-﻿<!DOCTYPE html>
-<html lang="fr-CA">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found - Republic of ToadVille Bay (Canada)</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found - Republic of ToadVille Bay (Canada)</title>
 
-    <!-- Chemin absolu pour fonctionner depuis N’IMPORTE quel dossier -->
-    <link rel="stylesheet" href="/styles.css">
+  <meta property="og:title" content="404 - Page Not Found" />
+  <meta property="og:description" content="The page you are looking for could not be found on the Republic of ToadVille Bay website." />
+  <meta property="og:url" content="https://toadvillebay.com/404.html" />
+  <meta property="og:image" content="https://toadvillebay.com/Images and Videos/ToadVilleCOA.png" />
+  <meta name="theme-color" content="#0066CC" />
+
+  <link rel="icon" type="image/png" href="Images and Videos/ToadVilleCOA.png" />
+  <link rel="apple-touch-icon" href="Images and Videos/ToadVilleCOA.png" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="error-container">
-        <div class="narwhal-background">
-            <!-- Le chemin absolu corrige les problèmes de dossiers -->
-            <img src="/Images and Videos/Gabe the Narwhal.png" alt="Gabe le narval">
-        </div>
-
-        <div class="error-content">
-            <div class="error-code">404</div>
-            <div class="error-message">Gabe the Narwhal searched the sea</div>
-
-            <div class="error-description">
-                No results were found, have Gabe help you find your way back to shore.
-            </div>
-
-            <div class="error-links">
-                <!-- Chemins absolus -->
-                <a href="/index.html">🏠 Return to shore</a>
-                <a href="/search.html">🔍 Explore the waters</a>
+    <div class="container">
+        <!-- Top Header Bar -->
+        <div class="header-bar">
+            <div class="header-bar-content">
+                <div class="gov-text">
+                    <img src="Images and Videos/ToadVille Bay National.png" alt="ToadVille Bay" class="gov-logo">
+                    <span class="gov-name">ToadVille Bay</span>
+                </div>
+                <div class="header-links">
+                    <a href="https://toadvillebay.com" target="_blank">toadvillebay.com (Canada)</a>
+                    <span class="sep">|</span>
+                    <a href="https://qc-ca.toadvillebay.com/" target="_blank">Français</a>
+                </div>
             </div>
         </div>
-    </div>
-</body>
-</html>
 
+        <!-- Main Header -->
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="Images and Videos/ToadVilleCOA.png" alt="ToadVille Bay Coat of Arms" class="logo-image">
+                    <div class="header-text">
+                        <h1>ToadVille Bay</h1>
+                        <p>Government Services</p>
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                    <button>Search</button>
+                </div>
+            </div>
+
+            <!-- Navigation Tabs -->
+            <nav class="main-nav">
+                <a href="index.html" class="nav-tab">Home</a>
+                <a href="main.html" class="nav-tab">Services</a>
+                <a href="about.html" class="nav-tab">About</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Error Banner -->
+            <section class="featured-banner error-banner">
+                <div class="banner-content">
+                    <div class="banner-text">
+                        <h2>404 - Page Not Found</h2>
+                        <p>Sorry, the page you are looking for could not be found on this server.</p>
+                        <span class="banner-note">⚠ The requested resource is not available at this location.</span>
+                    </div>
+                    <div class="banner-icon">🔍</div>
+                </div>
+            </section>
