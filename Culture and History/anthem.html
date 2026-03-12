@@ -14,6 +14,77 @@
   <link rel="icon" type="image/png" href="../Images and Videos/ToadVilleCOA.png" />
   <link rel="apple-touch-icon" href="../Images and Videos/ToadVilleCOA.png" />
   <link rel="stylesheet" href="../styles.css" />
+  <style>
+    /* Content Section Styling */
+    .content-section {
+      margin-bottom: 50px;
+    }
+
+    .content-section h2 {
+      color: #ffffff;
+      font-size: 28px;
+      margin-bottom: 20px;
+      margin-top: 40px;
+      padding-bottom: 12px;
+      border-bottom: 3px solid #2d5aa0;
+      font-weight: 600;
+    }
+
+    .content-section h2:first-child {
+      margin-top: 0;
+    }
+
+    .content-section h3 {
+      color: #ffffff;
+      font-size: 22px;
+      margin-bottom: 20px;
+      margin-top: 30px;
+      padding-left: 12px;
+      border-left: 4px solid #126836;
+      font-weight: 600;
+    }
+
+    .content-section > p {
+      color: #ffffff;
+      font-size: 15px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .content-section table {
+      margin: 25px 0;
+    }
+
+    /* Audio Player Styling */
+    .audio-player {
+      background: linear-gradient(135deg, #2d5aa0 0%, #1e3a6f 100%);
+      padding: 30px;
+      border-radius: 8px;
+      margin: 30px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .audio-player h3 {
+      color: white;
+      margin-bottom: 15px;
+      border: none;
+      padding: 0;
+      margin-top: 0;
+    }
+
+    .audio-player audio {
+      width: 100%;
+      max-width: 500px;
+      height: 45px;
+      margin-bottom: 10px;
+    }
+
+    .audio-info {
+      color: #f0f0f0;
+      font-size: 13px;
+      opacity: 0.9;
+    }
+  </style>
 </head>
 <body>
     <div class="container">
@@ -137,6 +208,18 @@
 
                 <h3>Cultural Importance</h3>
                 <p>The National Anthem represents the core values of ToadVille Bay: unity, freedom, pride, and resilience. Its lyrics emphasize the bonds that hold the diverse provinces together and the commitment to democratic principles. For citizens, singing the anthem is a powerful expression of patriotism and national identity, transcending regional, cultural, and social boundaries.</p>
+
+                <div class="audio-player">
+                    <h3>🎵 Listen to the National Anthem</h3>
+                    <audio controls>
+                        <source src="../Audio/national-anthem.mp3" type="audio/mpeg">
+                        <source src="../Audio/national-anthem.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="audio-info">
+                        <p>Official recording of "O Land of the Toad" - Duration: 2 minutes 45 seconds</p>
+                    </div>
+                </div>
             </section>
         </main>
 
