@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: #fff; /* text color for contrast */
     background-color: #000; /* fallback background */
@@ -926,4 +926,5 @@ table tbody tr:last-child td {
     transform: translateY(-5px);
     box-shadow: 0 12px 40px rgba(0,0,0,0.3);
 }
+
 
