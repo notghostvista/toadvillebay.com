@@ -388,7 +388,7 @@ main {
 
 .info-section h3 {
     font-size: 24px;
-    color: #1e3a6f;
+    color: #ffffff;
     margin-bottom: 25px;
     padding-bottom: 10px;
     border-bottom: 2px solid #2d5aa0;
@@ -926,3 +926,4 @@ table tbody tr:last-child td {
     transform: translateY(-5px);
     box-shadow: 0 12px 40px rgba(0,0,0,0.3);
 }
+
