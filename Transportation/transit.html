@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ToadVille Bay – Public Transit</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="site-header__top">
+      <a class="site-brand" href="/index.html">
+        <img src="../Images and Videos/flag.png" alt="ToadVille Bay" class="brand-mark" />
+        <span class="brand-text">ToadVille Bay</span>
+      </a>
+      <div class="site-utils">
+        <form class="site-search" role="search" aria-label="Site search" onsubmit="handleSearch(event)">
+          <label for="q" class="sr-only">Search ToadVille Bay</label>
+          <input id="q" name="q" type="search" placeholder="Search ToadVille Bay" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Public Transit">
+    <div class="hero__content">
+      <h1 class="h1-accent">Public Transit & Transportation</h1>
+      <p>Get around ToadVille Bay with our convenient and affordable transit options.</p>
+      <a class="btn-primary" href="./transportation.html">Back to Transportation</a>
+    </div>
+  </section>
+
+  <main class="page-content">
+    <section class="card-grid" aria-labelledby="services-title">
+      <h2 id="services-title">Transit services</h2>
+      <div class="grid">
+        <a class="card" href="#local-bus" aria-label="Local bus service">
+          <h3>Local Bus Service</h3>
+          <p>Regular routes connecting all neighborhoods and key destinations.</p>
+        </a>
+        <a class="card" href="#express" aria-label="Express routes">
+          <h3>Express Routes</h3>
+          <p>Fast connections to regional centers and transportation hubs.</p>
+        </a>
+        <a class="card" href="#accessible" aria-label="Accessible transit">
+          <h3>Accessible Transit</h3>
+          <p>Specialized services for passengers with mobility needs.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="card-grid" aria-labelledby="planning-title">
+      <h2 id="planning-title">Plan your trip</h2>
+      <div class="grid">
+        <a class="card" href="#schedules" aria-label="Schedules and routes">
+          <h3>Schedules & Routes</h3>
+          <p>Real-time information and route planning tools.</p>
+        </a>
+        <a class="card" href="#fares" aria-label="Fares and passes">
+          <h3>Fares & Passes</h3>
+          <p>Ticket options, monthly passes, and discount programs.</p>
+        </a>
+        <a class="card" href="#stops" aria-label="Stops and stations">
+          <h3>Stops & Stations</h3>
+          <p>Find your nearest stop and station amenities.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="local-bus" class="content-block" aria-labelledby="local-title">
+      <h2 id="local-title">Local Bus Service</h2>
+      <p>Our comprehensive local network serves all areas of ToadVille Bay:</p>
+      <ul>
+        <li><strong>Route 1</strong> - Downtown to Waterfront (every 15 minutes)</li>
+        <li><strong>Route 2</strong> - Residential loop via Community Center (every 20 minutes)</li>
+        <li><strong>Route 3</strong> - Industrial area to Shopping District (every 30 minutes)</li>
+        <li><strong>Route 4</strong> - Express to Regional Hospital (hourly)</li>
+        <li><strong>Weekend Service</strong> - Reduced frequency on Routes 1 & 2</li>
+        <li><strong>Holiday Schedule</strong> - Limited service on statutory holidays</li>
+      </ul>
+    </section>
+
+    <section id="fares" class="content-block" aria-labelledby="fares-title">
+      <h2 id="fares-title">Fares & Passes</h2>
+      <p>Affordable transportation for everyone:</p>
+      <ul>
+        <li><strong>Adult Single Ride</strong> - TB$2.50 (exact change or transit card)</li>
+        <li><strong>Youth/Senior</strong> - TB$1.75 (ages 13-18 and 65+)</li>
+        <li><strong>Child</strong> - Free (under 12 with paying adult)</li>
+        <li><strong>Monthly Pass</strong> - TB$65 adult, TB$45 youth/senior</li>
+        <li><strong>Annual Pass</strong> - TB$650 adult, TB$450 youth/senior</li>
+        <li><strong>Low-Income Discount</strong> - 50% off with qualification</li>
+      </ul>
+    </section>
+
+    <section id="accessible" class="content-block" aria-labelledby="accessible-title">
+      <h2 id="accessible-title">Accessible Transit</h2>
+      <p>We're committed to providing accessible transportation for all:</p>
+      <ul>
+        <li><strong>Low-Floor Buses</strong> - All buses wheelchair accessible</li>
+        <li><strong>HandyDART Service</strong> - Door-to-door service for eligible passengers</li>
+        <li><strong>Audio Announcements</strong> - Stop announcements on all routes</li>
+        <li><strong>Priority Seating</strong> - Designated areas for mobility devices</li>
+        <li><strong>Service Animals</strong> - Welcome on all transit vehicles</li>
+        <li><strong>Assistance</strong> - Drivers trained to provide boarding assistance</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img class="footer-brand-img" src="../Images and Videos/flag.png" alt="ToadVille Bay" />
+      </div>
+      <div class="footer-links-columns">
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">Our community</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Programs & services</a></li>
+            <li><a href="#">Permits & licenses</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Site map</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../Legal/termsofservice.html">Terms of Service</a></li>
+            <li><a href="../Legal/privacy.html">Privacy</a></li>
+            <li><a href="../Legal/communityguidelines.html">Community Guidelines</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-brand" style="grid-column: 1 / -1; text-align:center;">
+          <span class="site-footer-text">© ToadVille Bay 2019–2025</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../scripts/site-search.js"></script>
+</body>
+</html>

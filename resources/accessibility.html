@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessibility – ToadVille Bay</title>
+  <meta content="ToadVille Bay Accessibility Information" property="og:title" />
+  <meta content="Information about accessibility features, services, and accommodations in ToadVille Bay." property="og:description" />
+  <meta content="https://toadvillebay.com/resources/accessibility.html" property="og:url" />
+  <meta content="https://toadvillebay.com/Images and Videos/ToadVilleCOA.png" property="og:image" />
+  <link rel="icon" type="image/png" href="../Images and Videos/ToadVilleCOA.png" />
+  <link rel="apple-touch-icon" href="../Images and Videos/ToadVilleCOA.png" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="site-header__top">
+      <a class="site-brand" href="/index.html">
+        <img src="../Images and Videos/flag.png" alt="ToadVille Bay" class="brand-mark" />
+        <span class="brand-text">ToadVille Bay</span>
+      </a>
+      <div class="site-utils">
+        <form class="site-search" role="search" aria-label="Site search" onsubmit="handleSearch(event)">
+          <label for="q" class="sr-only">Search ToadVille Bay</label>
+          <input id="q" name="q" type="search" placeholder="Search ToadVille Bay" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Accessibility Information">
+    <div class="hero__content">
+      <h1 class="h1-accent">Accessibility</h1>
+      <p>Making ToadVille Bay accessible for everyone.</p>
+    </div>
+  </section>
+
+  <main class="page-content">
+    <section class="info-section" aria-labelledby="web-accessibility-title">
+      <h2 id="web-accessibility-title">Website Accessibility</h2>
+      <div class="info-cards">
+        <div class="info-card">
+          <h3>Standards Compliance</h3>
+          <ul>
+            <li>WCAG 2.1 Level AA compliant</li>
+            <li>Keyboard navigation support</li>
+            <li>Screen reader compatibility</li>
+            <li>High contrast options</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h3>Accessibility Features</h3>
+          <ul>
+            <li>Alternative text for images</li>
+            <li>Proper heading structure</li>
+            <li>Clear navigation</li>
+            <li>Readable fonts</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h3>Assistance</h3>
+          <ul>
+            <li>24/7 accessibility support</li>
+            <li>Alternative format documents</li>
+            <li>Translation services</li>
+            <li>Technical help</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section" aria-labelledby="physical-accessibility-title">
+      <h2 id="physical-accessibility-title">Physical Accessibility</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Government Buildings</h3>
+          <ul>
+            <li>Wheelchair accessible entrances</li>
+            <li>Elevators</li>
+            <li>Accessible washrooms</li>
+            <li>Service animal facilities</li>
+          </ul>
+        </div>
+        
+        <div class="card">
+          <h3>Public Transportation</h3>
+          <ul>
+            <li>Accessible buses and trains</li>
+            <li>Specialized transit services</li>
+            <li>Priority seating</li>
+            <li>Audio announcements</li>
+          </ul>
+        </div>
+        
+        <div class="card">
+          <h3>Public Spaces</h3>
+          <ul>
+            <li>Accessible parking</li>
+            <li>Curb cuts and ramps</li>
+            <li>Tactile walking surfaces</li>
+            <li>Rest areas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section" aria-labelledby="services-title">
+      <h2 id="services-title">Accessible Services</h2>
+      <div class="info-cards">
+        <div class="info-card">
+          <h3>Communication Support</h3>
+          <ul>
+            <li>Sign language interpretation</li>
+            <li>Real-time captioning</li>
+            <li>Braille translation</li>
+            <li>Language assistance</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h3>Programs & Activities</h3>
+          <ul>
+            <li>Inclusive recreation programs</li>
+            <li>Adaptive equipment</li>
+            <li>Support workers</li>
+            <li>Modified activities</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h3>Employment Support</h3>
+          <ul>
+            <li>Workplace accommodations</li>
+            <li>Assistive technology</li>
+            <li>Job coaching</li>
+            <li>Training programs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section" aria-labelledby="feedback-title">
+      <h2 id="feedback-title">Accessibility Feedback</h2>
+      <p>We are committed to continuous improvement. If you encounter any accessibility barriers or have suggestions for improvement, please contact us:</p>
+      <ul>
+        <li>Email: accessibility@toadvillebay.com</li>
+        <li>Phone: 555-0128</li>
+        <li>TTY: 555-0129</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img class="footer-brand-img" src="../Images and Videos/flag.png" alt="ToadVille Bay" />
+      </div>
+      <div class="footer-links-columns">
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li><a href="../About/community.html">Our community</a></li>
+            <li><a href="../About/departments.html">Departments</a></li>
+            <li><a href="../About/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="programs-services.html">Programs & services</a></li>
+            <li><a href="permits-licenses.html">Permits & licenses</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+            <li><a href="sitemap.html">Site map</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../Legal/termsofservice.html">Terms of Service</a></li>
+            <li><a href="../Legal/privacy.html">Privacy</a></li>
+            <li><a href="../Legal/communityguidelines.html">Community Guidelines</a></li>
+            <li><a href="../Legal/cookies.html">Cookies</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-brand" style="grid-column: 1 / -1; text-align:center;">
+          <span class="site-footer-text">© ToadVille Bay 2019–2025</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../scripts/site-search.js"></script>
+  <script src="../scripts/footer.js"></script>
+</body>
+</html>
