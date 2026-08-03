@@ -1,205 +1,49 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr-CA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Á propos de ToadVille Bay</title>
-    <meta content="Á propos de ToadVille Bay" property="og:title" />
-    <meta content="Découvrez les personnes qui façonnent et ont créé ToadVille Bay." property="og:description" />
+    <title>À propos - République de ToadVille Bay (Canada)</title>
+    <meta content="À propos - République de ToadVille Bay (Canada)" property="og:title" />
+    <meta content="Découvrez le fondateur de la République de ToadVille Bay." property="og:description" />
     <meta content="https://toadvillebay.com/about.html" property="og:url" />
     <meta content="https://toadvillebay.com/Images and Videos/ToadVilleCOA.png" property="og:image" />
     <link rel="icon" type="image/png" href="./Images and Videos/ToadVilleCOA.png" />
     <link rel="apple-touch-icon" href="./Images and Videos/ToadVilleCOA.png" />
     <link rel="stylesheet" href="styles.css">
     <style>
-
-        .profile-section {
-            text-align: center;
-            padding: 60px 20px;
-            background: linear-gradient(to bottom, var(--tvb-surface-alt), white);
-        }
-
-        .profile-images {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-bottom: 30px;
-        }
-
-        .profile-image {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 4px solid var(--tvb-primary);
-            box-shadow: 0 0 20px rgba(0,0,0,0.2);
-            overflow: hidden;
-            background: white;
-            animation: gentle-bounce 3s ease-in-out infinite;
-        }
-
-        .profile-image:nth-child(2) {
-            animation-delay: 1.5s;
-        }
-
-        .profile-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .profile-name {
-            font-size: 2.5em;
-            color: var(--tvb-primary);
-            margin-bottom: 10px;
-        }
-
-        .profile-title {
-            font-size: 1.2em;
-            color: var(--tvb-text);
-            margin-bottom: 20px;
-            opacity: 0.8;
-        }
-
-        .profile-bio {
-            max-width: 600px;
-            margin: 0 auto 40px;
-            line-height: 1.8;
-            color: var(--tvb-text);
-        }
-
-        .about-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .about-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-        }
-
-        .about-card {
-            background: rgb(0, 0, 0);
-            border-radius: 8px;
-            padding: 30px;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .about-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-        }
-
-        .about-card h2 {
-            color: var(--tvb-primary);
-            margin-bottom: 15px;
-            font-size: 1.5em;
-        }
-
-        .about-card p {
-            line-height: 1.6;
-            margin-bottom: 15px;
-            color: var(--tvb-text);
-            opacity: 0.9;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 12px 24px;
-            background: var(--tvb-primary);
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: background 0.3s, transform 0.2s;
-            margin-top: 15px;
-        }
-
-        .cta-button:hover {
-            background: var(--tvb-primary-dark);
-            transform: scale(1.05);
-        }
-
-        .legal-section {
-            background: var(--tvb-surface-alt);
-            padding: 40px 0;
-            margin-top: 40px;
-        }
-
-        .legal-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .legal-card {
-            background: rgb(0, 0, 0);
-            padding: 30px;
-            border-radius: 8px;
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .legal-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-        }
-
-        .legal-card h3 {
-            color: var(--tvb-primary);
-            font-size: 1.5em;
-            margin-bottom: 15px;
-        }
-
-        .legal-card p {
-            margin-bottom: 25px;
-            line-height: 1.6;
-            color: var(--tvb-text);
-            opacity: 0.9;
-        }
-
-        .legal-card .cta-button {
-            background: var(--tvb-primary);
-            color: rgb(0, 0, 0);
-            text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 6px;
-            display: inline-block;
-            transition: background 0.3s, transform 0.2s;
-        }
-
-        .legal-card .cta-button:hover {
-            background: var(--tvb-primary-dark);
-            transform: scale(1.05);
-        }
-
-        @media (max-width: 768px) {
-            .about-hero h1 {
-                font-size: 2em;
-            }
-
-            .about-card {
-                margin-bottom: 20px;
-            }
-        }
+        .profile-section { text-align:center; padding:60px 20px; background:linear-gradient(to bottom, var(--tvb-surface-alt), white); }
+        .profile-images { display:flex; justify-content:center; gap:30px; margin-bottom:30px; }
+        .profile-image { width:200px; height:200px; border-radius:50%; border:4px solid var(--tvb-primary); box-shadow:0 0 20px rgba(0,0,0,0.2); overflow:hidden; background:white; }
+        .profile-image img { width:100%; height:100%; object-fit:cover; }
+        .profile-name { font-size:2.5em; color:var(--tvb-primary); margin-bottom:10px; }
+        .profile-title { font-size:1.2em; color:var(--tvb-text); margin-bottom:20px; opacity:0.8; }
+        .profile-bio { max-width:600px; margin:0 auto 40px; line-height:1.8; color:var(--tvb-text); }
+        .about-container { max-width:1200px; margin:0 auto; padding:0 20px; }
+        .about-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:30px; margin:40px 0; }
+        .about-card { background: rgb(0,0,0); border-radius:8px; padding:30px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,0.1); }
+        .about-card h2 { color:var(--tvb-primary); margin-bottom:15px; font-size:1.5em; }
+        .about-card p { line-height:1.6; margin-bottom:15px; color:var(--tvb-text); opacity:0.9; }
+        .cta-button { display:inline-block; padding:12px 24px; background:var(--tvb-primary); color:white; text-decoration:none; border-radius:6px; }
+        .legal-section { background:var(--tvb-surface-alt); padding:40px 0; margin-top:40px; }
+        .legal-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:30px; }
+        .legal-card { background: rgb(0,0,0); padding:30px; border-radius:8px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,0.1); }
+        @media (max-width:768px) { .about-hero h1 { font-size:2em; } .about-card { margin-bottom:20px; } }
     </style>
 </head>
 <body>
     <header class="site-header" role="banner">
         <div class="site-header__top">
             <a class="site-brand" href="/index.html">
-                <img src="Images and Videos/flag.png" alt="ToadVille Bay" class="brand-mark" />
+                <img src="Images and Videos/flag.png" alt="Drapeau de ToadVille Bay Canada" class="brand-mark" />
                 <span class="brand-text">ToadVille Bay</span>
             </a>
             <div class="site-utils">
-                <form class="site-search" role="search" aria-label="Site search" onsubmit="handleSearch(event)">
-                    <label for="q" class="sr-only">Recherher dans ToadVille Bay</label>
-                    <input id="q" name="q" type="search" placeholder="Recherher ToadVille Bay" />
-                    <button type="submit">Recherher</button>
+                <form class="site-search" role="search" aria-label="Recherche sur le site" onsubmit="handleSearch(event)">
+                    <label for="q" class="sr-only">Rechercher ToadVille Bay</label>
+                    <input id="q" name="q" type="search" placeholder="Rechercher ToadVille Bay" />
+                    <button type="submit">Rechercher</button>
                 </form>
             </div>
         </div>
@@ -208,105 +52,97 @@
     <section class="profile-section">
         <div class="profile-images">
             <div class="profile-image">
-                <img src="Images and Videos/gabe.jpg" alt="Site owner (IRL)" />
+                <img src="Images and Videos/gabe.jpg" alt="Propriétaire du site (dans la vraie vie)" />
             </div>
         </div>
         <h1 class="profile-name">Gabriel Medrano Gutiérrez</h1>
-        <p class="profile-title">Chef et fondateur de <strong><em>ToadVille Bay</em></strong></p>
-        <p class="profile-bio">
-            Fondé en 2019 en tant que projet communautaire et basé à Québec, au Québec (Canada), ToadVille Bay a pour mission de rassembler des personnes du monde entier afin de façonner son univers et de contribuer à son histoire. Plus qu'une simple république fictive, ToadVille Bay est un projet collaboratif où chacun peut participer à son évolution, pas seulement les membres de la direction. Que ce soit en proposant des idées, en enrichissant le lore ou en prenant part à la communauté, chaque contribution compte. ToadVille Bay développe également un jeu vidéo, actuellement en cours de développement, qui permettra aux joueurs d'explorer la République et de découvrir son univers de façon immersive.
-        </p>
+        <p class="profile-title">Créateur et concepteur de la <strong><em>République de ToadVille Bay</em></strong></p>
+        <p class="profile-bio">Fondée en 2019 en tant que projet communautaire et basée à Québec (Québec, Canada), ToadVille Bay vise à connecter des personnes du monde entier pour contribuer à son univers et enrichir sa mythologie. ToadVille Bay n'est pas seulement une république fictive ; c'est aussi un projet auquel vous pouvez participer et aider à bâtir. De plus, un jeu vidéo est en cours de développement pour permettre d'explorer cet univers.</p>
     </section>
 
     <main class="about-container">
         <div class="about-grid">
             <div class="about-card">
-                <h2>Qu'est-ce que République de ToadVille Bay</h2>
-                <p>
-                    La République de ToadVille Bay (RTB) est un pays fictif qui prend place dans un univers riche en histoire et en lore. Actuellement en développement sous forme de jeu vidéo, ToadVille Bay offre un vaste monde à explorer. C'est également un projet communautaire qui permet à ses membres de contribuer à l'expansion de cet univers, en développant son histoire, sa culture et son identité bien au-delà de ce qu'il est aujourd'hui.
-                </p>
+                <h2>Qu'est‑ce que la République de ToadVille Bay ?</h2>
+                <p>La République de ToadVille Bay (RDTB, RTB) est un pays fictif évoluant dans un univers riche en histoire et en légendes, actuellement développé comme jeu vidéo. Il y a beaucoup à explorer, et ToadVille Bay Canada est un projet communautaire qui contribue à étendre cet univers.</p>
             </div>
 
             <div class="about-card">
-                <h2>Qu'est-ce que ToadVille Bay v ROTB</h2>
-                <p>
-                    ToadVille Bay est le nom du projet. La République de ToadVille Bay (RTB) est le nom du pays fictif qui existe dans l'univers et le lore de ToadVille Bay. ToadVille Bay Ltd est l'entité utilisée pour les activités commerciales, notamment l'édition, la publication et la vente de marchandises. Quant à la République de ToadVille Bay (RTB), elle désigne toutes les entités de ToadVille Bay présentes dans les différents pays en tant qu'emplacements fictifs faisant partie intégrante du lore de ToadVille Bay.
-                </p>
+                <h2>ToadVille Bay vs RDTB</h2>
+                <p>"ToadVille Bay" est le nom commercial utilisé pour les activités (publication, marchandises, etc.), tandis que RDTB est le nom du pays fictif dans la mythologie de ToadVille Bay, employé pour les entités et lieux fictifs dans tous les pays.</p>
             </div>
 
             <div class="about-card">
                 <h2>Innovation numérique</h2>
-                <p>
-                   La République de ToadVille Bay agit comme un gouvernement fictif. Ce site Web a pour objectif de recréer les services gouvernementaux de ToadVille Bay tels qu'ils existent dans le jeu. Vous y trouverez également des conseils sur le jeu ainsi que des wikis créés par la communauté, afin de vous aider à profiter pleinement de l'univers de ToadVille Bay.
-
-<div class="about-container">
-    <div class="legal-grid">
-        <div class="legal-card">
-            <h3>Politique de confidentialité</h3>
-            <p>Découvrez comment les renseignements sont traités et comment votre vie privée est protégée dans ce projet de démonstration.</p>
-            <a href="Legal/privacy.html" class="cta-button">Lire la politique</a>
-        </div>
-
-        <div class="legal-card">
-            <h3>Conditions d'utilisation</h3>
-            <p>Consultez les conditions qui régissent l'utilisation de ce site Web.</p>
-            <a href="Legal/termsofservice.html" class="cta-button">Voir les conditions</a>
-        </div>
-
-        <div class="legal-card">
-            <h3>Lignes directrices de la communauté</h3>
-            <p>Prenez connaissance des normes de la communauté et des attentes en matière de participation.</p>
-            <a href="Legal/communityguidelines.html" class="cta-button">Lire les règles</a>
-        </div>
-    </div>
-</div>
-</section>
-</main>
-
-<footer class="site-footer" role="contentinfo">
-    <div class="footer-inner">
-        <div class="footer-brand">
-            <img class="footer-brand-img" src="Images and Videos/flag.png" alt="ToadVille Bay Canada" />
-        </div>
-
-        <div class="footer-links-columns">
-            <div>
-                <h4>À propos</h4>
-                <ul>
-                    <li><a href="About/community.html">Notre communauté</a></li>
-                    <li><a href="About/departments.html">Départements</a></li>
-                    <li><a href="About/contact.html">Nous joindre</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <h4>Ressources</h4>
-                <ul>
-                    <li><a href="resources/programs-services.html">Programmes et services</a></li>
-                    <li><a href="resources/permits-licenses.html">Permis et licences</a></li>
-                    <li><a href="resources/accessibility.html">Accessibilité</a></li>
-                    <li><a href="resources/sitemap.html">Plan du site</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <h4>Mentions légales</h4>
-                <ul>
-                    <li><a href="Legal/termsofservice.html">Conditions d'utilisation</a></li>
-                    <li><a href="Legal/privacy.html">Confidentialité</a></li>
-                    <li><a href="Legal/communityguidelines.html">Lignes directrices de la communauté</a></li>
-                    <li><a href="Legal/cookies.html">Témoins (cookies)</a></li>
-                </ul>
-            </div>
-
-            <div class="site-footer-brand" style="grid-column: 1 / -1; text-align:center;">
-                <span class="site-footer-text">© ToadVille Bay 2019–2027</span>
+                <p>La <strong>République de ToadVille Bay</strong> fonctionne comme un gouvernement fictif. Ce site vise à reproduire des services de ToadVille Bay tels qu'ils apparaîtraient dans le jeu. Vous trouverez aussi des astuces de jeu ou des wikis créés par les fans.</p>
             </div>
         </div>
-    </div>
-</footer>
 
-<script src="scripts/site-search.js"></script>
-<script src="scripts/footer.js"></script>
+        <section class="legal-section">
+            <div class="about-container">
+                <div class="legal-grid">
+                    <div class="legal-card">
+                        <h3>Politique de confidentialité</h3>
+                        <p>Découvrez comment les informations sont traitées et comment la vie privée est protégée dans ce projet de démonstration.</p>
+                        <a href="Legal/privacy.html" class="cta-button">Lire la politique</a>
+                    </div>
+
+                    <div class="legal-card">
+                        <h3>Conditions d'utilisation</h3>
+                        <p>Comprenez les conditions qui régissent l'utilisation du site.</p>
+                        <a href="Legal/termsofservice.html" class="cta-button">Voir les conditions</a>
+                    </div>
+
+                    <div class="legal-card">
+                        <h3>Règles de la communauté</h3>
+                        <p>Lisez les normes de la communauté et les attentes en matière de participation.</p>
+                        <a href="Legal/communityguidelines.html" class="cta-button">Lire les règles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img class="footer-brand-img" src="Images and Videos/flag.png" alt="ToadVille Bay Canada" />
+            </div>
+            <div class="footer-links-columns">
+                <div>
+                    <h4>À propos</h4>
+                    <ul>
+                        <li><a href="About/community.html">Notre communauté</a></li>
+                        <li><a href="About/departments.html">Départements</a></li>
+                        <li><a href="About/contact.html">Contactez‑nous</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Ressources</h4>
+                    <ul>
+                        <li><a href="resources/programs-services.html">Programmes et services</a></li>
+                        <li><a href="resources/permits-licenses.html">Permis et licences</a></li>
+                        <li><a href="resources/accessibility.html">Accessibilité</a></li>
+                        <li><a href="resources/sitemap.html">Plan du site</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Légal</h4>
+                    <ul>
+                        <li><a href="Legal/termsofservice.html">Conditions d'utilisation</a></li>
+                        <li><a href="Legal/privacy.html">Confidentialité</a></li>
+                        <li><a href="Legal/communityguidelines.html">Règles de la communauté</a></li>
+                        <li><a href="Legal/cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="site-footer-brand" style="grid-column: 1 / -1; text-align:center;">
+                    <span class="site-footer-text">© ToadVille Bay 2019–2027</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/site-search.js"></script>
+    <script src="scripts/footer.js"></script>
 </body>
 </html>
